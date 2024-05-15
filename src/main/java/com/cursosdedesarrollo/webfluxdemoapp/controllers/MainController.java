@@ -27,22 +27,6 @@ public class MainController {
         return Mono.just(p);
     }
 
-    @GetMapping("/list")
-    @ResponseStatus(HttpStatus.OK)
-    public Flux<List<Person>> getPersons() {
-        Person p =new Person();
-        p.setId("1L");
-        p.setName("David");
-        p.setLastName("Vaquero");
-        List<Person> listado = new ArrayList<>();
-        listado.add(p);
-        p =new Person();
-        p.setId("2L");
-        p.setName("Lorena");
-        p.setLastName("Reyes");
-        listado.add(p);
-        return Flux.just(listado);
-    }
 
     @GetMapping("/list-iterable")
     @ResponseStatus(HttpStatus.OK)
