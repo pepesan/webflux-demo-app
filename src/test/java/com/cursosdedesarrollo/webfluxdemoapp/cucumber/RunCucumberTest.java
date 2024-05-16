@@ -9,7 +9,7 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("com/koushick/BDD/Steps")
+@SelectClasspathResource("com/cursosdedesarrollo/webfluxdemoapp/stepdefs")
 @ConfigurationParameter(key = Constants.FEATURES_PROPERTY_NAME,value = "src/test/resources/features/main.feature")
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME,value = "com/cursosdedesarrollo/webfluxdemoapp/stepdefs")
 //@ConfigurationParameter(key = Constants.FILTER_TAGS_PROPERTY_NAME,value = "@googleSearch")
