@@ -5,10 +5,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class Person {
+@AllArgsConstructor
+public class Dato {
     private String id;
-    private String name;
-    private String lastName;
+    private String cadena;
+
+    public Dato(DatoDto datoDto){
+        this.cadena = datoDto.getCadena();
+    }
 }

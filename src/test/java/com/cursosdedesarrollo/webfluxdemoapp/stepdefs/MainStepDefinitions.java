@@ -1,7 +1,6 @@
 package com.cursosdedesarrollo.webfluxdemoapp.stepdefs;
 
 
-import com.cursosdedesarrollo.webfluxdemoapp.domain.Person;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.springframework.boot.test.context.SpringBootTest;

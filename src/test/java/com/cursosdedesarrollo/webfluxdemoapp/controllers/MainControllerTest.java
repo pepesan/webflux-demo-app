@@ -1,6 +1,5 @@
 package com.cursosdedesarrollo.webfluxdemoapp.controllers;
 
-import com.cursosdedesarrollo.webfluxdemoapp.domain.Person;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTest;
